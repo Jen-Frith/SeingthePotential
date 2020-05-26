@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/test', function() {
+
+$pain= ('pour un obn sandwich mets y de la confiture du beurre et des épices');
+
+dd($pain);
+
+// dd('Hello Guy');
+
+
+});
