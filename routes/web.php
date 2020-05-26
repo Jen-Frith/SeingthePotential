@@ -28,3 +28,10 @@ dd($pain);
 
 
 });
+
+
+Route::get('/todayMenu', function(){
+    $pain= ('pour un obn sandwich mets y de la confiture du beurre et des épices');
+
+    dd($pain);    
+    return view ('menu26mai');})->name('todayMenu');

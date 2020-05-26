@@ -83,7 +83,7 @@
                 <div class="title m-b-md">
                     Hello World
                 </div>
-
+<a href="{{route('todayMenu')}}">Click ici pour voir le sandwich du jour</a>
                
             </div>
         </div>
